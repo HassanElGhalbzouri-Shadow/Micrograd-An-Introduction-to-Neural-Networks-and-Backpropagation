@@ -152,7 +152,7 @@ We have defined various functions (such as [activation functions:link:](#Activat
         return out
 ```
 
-> [!INFORMATION]
+> [!NOTE]
 > The += operator in the \_backward() function, when calculating the gradient, is used for accumulation, particularly when one node is used multiple times in the computation graph.
 
 <p align="center">
